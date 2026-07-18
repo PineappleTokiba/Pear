@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="{{BRAND_NAME}} makes modular phones you repair and upgrade, one part at a time." />
+  <title>{{BRAND_NAME}} — The phone that grows with you</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="{{BRAND_NAME}} home"><span data-brand-initial></span>{{BRAND_NAME}}</a>
+    <nav class="desktop-nav" aria-label="Main navigation">
+      <a href="#how">How it works</a>
+      <a href="#modules">Modules</a>
+      <a href="#roadmap">Roadmap</a>
+      <a href="#team">Team</a>
+      <a href="#impact">Our impact</a>
+    </nav>
+    <a class="nav-cta" href="#reserve">Reserve yours <span><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right" /></svg></span></a>
+    <button class="menu-button" aria-label="Open menu" aria-expanded="false"><i></i><i></i></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> Designed to outlast the upgrade cycle</p>
+        <h1>The last phone<br>you’ll need to <em>replace.</em></h1>
+        <p class="hero-sub">Swap what breaks. Upgrade what matters. Keep everything else.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#reserve">Meet {{BRAND_NAME}} One <span><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right" /></svg></span></a>
+          <a class="text-link" href="#how">See how it works <span><svg class="icon" aria-hidden="true"><use href="#icon-arrow-down" /></svg></span></a>
+        </div>
+      </div>
+      <div class="hero-product" aria-label="Exploded view of a modular phone">
+        <img src="assets/modular-phone-hero-v3.png" alt="{{BRAND_NAME}} modular smartphone fully visible beside its replaceable battery, camera, and rear shell" />
+      </div>
+      <div class="scroll-cue">SCROLL TO EXPLORE <span><svg class="icon" aria-hidden="true"><use href="#icon-arrow-down" /></svg></span></div>
+    </section>
+
+    <section class="manifesto problem" id="problem">
+      <div class="problem-copy">
+        <div><p class="kicker">ONE BROKEN PART SHOULD NOT MEAN ONE BROKEN PHONE</p><h2>We replace too much<br><span>for too little.</span></h2></div>
+        <p class="manifesto-body">A worn battery, cracked screen, or damaged port can make an otherwise capable phone feel disposable. Short product cycles turn repairable problems into whole-device replacements—and valuable materials into waste.</p>
+      </div>
+      <div class="problem-stats">
+        <article><strong>62M</strong><p>tonnes of electronic waste were generated worldwide in 2022.</p></article>
+        <article><strong>22.3%</strong><p>was formally collected and recycled through documented systems.</p></article>
+        <article><strong>2 yrs</strong><p>is how often users replace a smartphone on average.</p></article>
+      </div>
+      <p class="problem-source mono">SOURCES: <a href="https://www.itu.int/en/ITU-D/Environment/Pages/Publications/The-Global-E-waste-Monitor-2024.aspx" target="_blank" rel="noreferrer">ITU / UNITAR GLOBAL E-WASTE MONITOR 2024</a> · <a href="https://publications.jrc.ec.europa.eu/repository/handle/JRC116106" target="_blank" rel="noreferrer">EUROPEAN COMMISSION JRC</a></p>
+    </section>
+
+    <section class="solution" id="how">
+      <div class="solution-heading">
+        <div><p class="kicker">OUR SOLUTION</p><h2>Repair the part.<br><span>Keep the phone.</span></h2></div>
+        <div><p>{{BRAND_NAME}} is designed as a system of independent modules instead of one sealed device. When something wears out, you replace only what needs attention while your data, settings, and the rest of the phone stay with you.</p><p>Simple diagnostics identify the problem, standardized hardware makes the repair approachable, and our return program keeps used components in circulation.</p></div>
+      </div>
+      <div class="steps">
+        <article><span class="step-num">01</span><div class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-search" /></svg></div><h3>Find the problem.</h3><p>The {{BRAND_NAME}} app checks the phone and identifies the exact module that needs attention—without guesswork or an unnecessary full replacement.</p></article>
+        <article><span class="step-num">02</span><div class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-refresh" /></svg></div><h3>Swap the part.</h3><p>Open the phone with one standard tool, remove the worn module, and click in its replacement. No glue, soldering, or repair shop required.</p></article>
+        <article><span class="step-num">03</span><div class="step-icon"><svg class="icon" aria-hidden="true"><use href="#icon-package-return" /></svg></div><h3>Send it back.</h3><p>Return the old module using the included mailer. Working parts are refurbished, while remaining materials are sent through responsible recycling channels.</p></article>
+      </div>
+    </section>
+
+    <section class="modules" id="modules">
+      <div class="modules-head">
+        <div><h2>Upgrade the part.<br><span>Not the whole.</span></h2></div>
+        <p>Our first physical prototype focuses on five replaceable parts.</p>
+      </div>
+      <div class="module-grid">
+        <a class="module-card" href="module.html?part=charging-port" target="_blank" rel="noopener"><div class="module-symbol"><svg class="icon" aria-hidden="true"><use href="#icon-plug" /></svg></div><div><p class="mono">PART 01 / J</p><h3>Charging port</h3><span>Replace the highest-wear connection</span></div></a>
+        <a class="module-card" href="module.html?part=camera" target="_blank" rel="noopener"><div class="module-art camera-art"><i></i><i></i><i></i></div><div><p class="mono">PART 02 / C</p><h3>Camera</h3><span>Swap the lens and sensor together</span></div></a>
+        <a class="module-card" href="module.html?part=buttons" target="_blank" rel="noopener"><div class="module-symbol">＋<br>—</div><div><p class="mono">PART 03 / J</p><h3>Buttons</h3><span>Separate high-wear controls</span></div></a>
+        <a class="module-card" href="module.html?part=battery" target="_blank" rel="noopener"><span class="tag mono">IN PROGRESS</span><div class="module-art battery-art"><i></i><i></i><i></i></div><div><p class="mono">PART 04 / J</p><h3>Battery</h3><span>Solderless, protected, replaceable</span></div></a>
+        <a class="module-card casing-card" href="module.html?part=phone-base" target="_blank" rel="noopener"><img class="module-casing" src="assets/phone-outer-casing.png" alt="{{BRAND_NAME}} phone outer casing" /><div><p class="mono">PART 05 / C</p><h3>Phone base</h3><span>Reusable outer casing for every part</span></div></a>
+      </div>
+    </section>
+
+    <section class="roadmap" id="roadmap">
+      <div class="section-heading"><h2>From workbench<br><span>to everyday use.</span></h2><p>Four focused milestones take {{BRAND_NAME}} from a working prototype to a product built for real life.</p></div>
+      <div class="roadmap-track">
+        <article class="current"><span class="roadmap-dot"></span><p class="mono">PHASE 01 / NOW</p><h3>Proof of concept</h3><p>Build and test the five core replaceable modules.</p></article>
+        <article><span class="roadmap-dot"></span><p class="mono">PHASE 02</p><h3>Alpha prototype</h3><p>Refine the enclosure, connectors, software, and repair flow.</p></article>
+        <article><span class="roadmap-dot"></span><p class="mono">PHASE 03</p><h3>Pilot testing</h3><p>Put early units in users’ hands and validate durability.</p></article>
+        <article><span class="roadmap-dot"></span><p class="mono">PHASE 04</p><h3>First release</h3><p>Launch a limited production run and module return program.</p></article>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="team-overview">
+        <div class="team-intro"><h2>Built by people who<br><span>believe phones can last.</span></h2><p>We’re bringing together product, engineering, design, and circular-economy thinking to make repairable technology practical.</p></div>
+        <figure class="team-group-photo">
+          <img src="assets/Group-Photo.jpg" alt="The eight members of the {{BRAND_NAME}} team together" />
+          <figcaption><span class="mono">THE TEAM</span><strong>Eight people. One repairable future.</strong></figcaption>
+        </figure>
+      </div>
+      <div class="team-grid">
+        <article><div class="team-photo"><span>Photo</span></div><h3>Team member</h3><p>Role / specialty</p></article>
+        <article><div class="team-photo"><span>Photo</span></div><h3>Team member</h3><p>Role / specialty</p></article>
+        <article><div class="team-photo"><span>Photo</span></div><h3>Team member</h3><p>Role / specialty</p></article>
+        <article><div class="team-photo"><span>Photo</span></div><h3>Team member</h3><p>Role / specialty</p></article>
+        <article><div class="team-photo"><span>Photo</span></div><h3>Team member</h3><p>Role / specialty</p></article>
+        <article><div class="team-photo"><span>Photo</span></div><h3>Team member</h3><p>Role / specialty</p></article>
+        <article><div class="team-photo"><span>Photo</span></div><h3>Team member</h3><p>Role / specialty</p></article>
+        <article><div class="team-photo"><span>Photo</span></div><h3>Team member</h3><p>Role / specialty</p></article>
+      </div>
+    </section>
+
+    <section class="impact" id="impact">
+      <div class="impact-main"><h2>Good for your wallet.<br><span>Better for our planet.</span></h2><p>Most of a phone still works when it gets replaced. {{BRAND_NAME}} keeps those materials in use—and your money in your pocket.</p></div>
+      <div class="stats">
+        <div><strong><span data-count="70">0</span>%</strong><p>less e-waste over<br>five years</p></div>
+        <div><strong>$<span data-count="840">0</span></strong><p>average saved on<br>upgrades</p></div>
+        <div><strong><span data-count="5">0</span>×</strong><p>longer useful<br>phone life</p></div>
+      </div>
+      <p class="method-note mono">ESTIMATES BASED ON A FIVE-YEAR OWNERSHIP PERIOD VS. REPLACING A CONVENTIONAL PHONE EVERY 2.5 YEARS.</p>
+      <div class="sources"><span class="mono">RESEARCH NOTES</span><a href="https://recycle.michaelhill.com/high-value-gold-recycling-research.pdf" target="_blank" rel="noreferrer">Gold recycling life-cycle study <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right" /></svg></a><a href="https://environment.ec.europa.eu/news/sustainable-smartphones-modular-design-promotes-do-it-yourself-repair-extend-device-life-2023-02-15_en" target="_blank" rel="noreferrer">European Commission on modular repair <svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right" /></svg></a></div>
+    </section>
+
+    <section class="reserve" id="reserve">
+      <div><p class="eyebrow"><span></span> First edition / limited release</p><h2>Ready for a phone<br>that stays <em>yours?</em></h2><p>Join the waitlist for early access, launch pricing, and a free spare PowerCell.</p></div>
+      <form id="waitlist-form"><label class="sr-only" for="email">Email address</label><input id="email" type="email" required placeholder="Your email address"><button type="submit">Join the waitlist <span><svg class="icon" aria-hidden="true"><use href="#icon-arrow-up-right" /></svg></span></button><p class="form-message" role="status"></p></form>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#top"><span data-brand-initial></span>{{BRAND_NAME}}</a><p>Keep the phone.<br>Change the future.</p><div class="footer-links"><a href="#">Instagram</a><a href="#">Journal</a><a href="#">Support</a></div><p class="copyright mono">© 2026 {{BRAND_NAME}} DEVICES INC.</p></footer>
+  <svg class="icon-sprite" aria-hidden="true">
+    <symbol id="icon-arrow-up-right" viewBox="0 0 24 24"><path d="M7 17 17 7M7 7h10v10" /></symbol>
+    <symbol id="icon-arrow-down" viewBox="0 0 24 24"><path d="M12 5v14M19 12l-7 7-7-7" /></symbol>
+    <symbol id="icon-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3" /></symbol>
+    <symbol id="icon-refresh" viewBox="0 0 24 24"><path d="M20 11a8.1 8.1 0 0 0-15.5-2M4 4v5h5M4 13a8.1 8.1 0 0 0 15.5 2M20 20v-5h-5" /></symbol>
+    <symbol id="icon-recycle" viewBox="0 0 24 24"><path d="m7.7 19-2.2-.2a2 2 0 0 1-1.6-3l1.1-2M9 19l-2 3-2-3M8.6 5.1l1.3-1.8a2 2 0 0 1 3.3.1l1.1 1.9M9.5 7 8 3.7 4.5 5M18.9 12.5l1 2a2 2 0 0 1-1.8 2.9h-2.2M17.5 10l3.5.3 1.5-3.2" /></symbol>
+    <symbol id="icon-package-return" viewBox="0 0 24 24"><path d="m16.5 9.4-9-5.2M21 16V8a2 2 0 0 0-1-1.7l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.7l7 4a2 2 0 0 0 2 0l3-1.7M3.3 7 12 12l8.7-5M12 22V12M22 19h-5M19 16l-3 3 3 3" /></symbol>
+    <symbol id="icon-plug" viewBox="0 0 24 24"><path d="M12 22v-5M9 8V2M15 8V2M18 8v5a6 6 0 0 1-12 0V8Z" /></symbol>
+  </svg>
+  <script src="script.js"></script>
+</body>
+</html>
